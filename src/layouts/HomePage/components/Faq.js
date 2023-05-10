@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import data
-import { faq } from '../data';
+import { faq } from '../../../data';
 
 // import components
-import Accordion from './Accordion';
+import Accordion from '../../../components/Accordion';
 
 const Faq = () => {
   // destructure faq data

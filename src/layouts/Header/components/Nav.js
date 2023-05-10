@@ -1,7 +1,8 @@
 import React from 'react';
 
 // import data
-import { nav } from '../data';
+import { nav } from '../../../data';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
@@ -10,9 +11,9 @@ const Nav = () => {
         {nav.map((item, idx) => {
           return (
             <li key={idx}>
-              <a href='#' className='hover:text-primary-200 transition'>
+              <NavLink to={item.href} className='hover:text-primary-200 transition'>
                 {item.name}
-              </a>
+              </NavLink>
             </li>
           );
         })}

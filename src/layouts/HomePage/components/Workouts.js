@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import data
-import { workouts } from '../data';
+import { workouts } from '../../../data';
 
 // import components
-import WorkoutSlider from './WorkoutSlider';
+import WorkoutSlider from '../../../components/WorkoutSlider';
 
 const Workouts = () => {
   // destructure workouts data

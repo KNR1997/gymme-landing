@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import data
-import { community } from '../data';
+import { community } from '../../../data';
 
 // import components
-import CommunitySlider from './CommunitySlider';
+import CommunitySlider from '../../../components/CommunitySlider';
 
 const Community = () => {
   // destructure community data

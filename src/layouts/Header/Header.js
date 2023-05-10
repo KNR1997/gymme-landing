@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 // import header data
-import { header } from '../data';
+import { header } from '../../data';
 
 // import components
-import Nav from '../components/Nav';
-import NavMobile from './NavMobile';
+import Nav from './components/Nav';
+import NavMobile from './components/NavMobile';
 
 // import icons
 import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri';

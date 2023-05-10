@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import data
-import { pricing } from '../data';
+import { pricing } from '../../../data';
 
 // import components
-import PlanList from './PlanList';
+import PlanList from '../../../components/PlanList';
 
 const Pricing = () => {
   // destructure pricing

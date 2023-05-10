@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import footer data
-import { footer } from '../data';
+import { footer } from '../../data';
 
 const Footer = () => {
   // destructure footer data
